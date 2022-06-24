@@ -40,7 +40,10 @@ function initAudio() {
   audioElement.load();
   audioElement.loop = true;
 
+
   audioElementSource = audioContext.createMediaElementSource(audioElement);
+
+debugger;
 
   // Create a Source, connect desired audio input to it.
   source = scene.createSource();
