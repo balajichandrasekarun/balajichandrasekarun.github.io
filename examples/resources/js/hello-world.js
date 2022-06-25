@@ -49,7 +49,7 @@ function initAudio() {
 
   // The source position is relative to the origin
   // (center of the room).
-  source.setPosition(1, 1, 2);
+  source.setPosition(-2, -2, 2);
 
   audioReady = true;
 }
