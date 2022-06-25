@@ -43,15 +43,13 @@ function initAudio() {
 
   audioElementSource = audioContext.createMediaElementSource(audioElement);
 
-debugger;
-
   // Create a Source, connect desired audio input to it.
   source = scene.createSource();
   audioElementSource.connect(source.input);
 
   // The source position is relative to the origin
   // (center of the room).
-  source.setPosition(-0.707, -0.707, 0);
+  source.setPosition(1, 1, 2);
 
   audioReady = true;
 }
